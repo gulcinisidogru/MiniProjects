@@ -2,7 +2,7 @@ public class ATMCashWithdrawalControle {
     public static void main(String[] args) {
 
         double balance = 800;
-        double withdrawalAmount =4;
+        double withdrawalAmount =-4;
 
         if (canWithdraw(balance, withdrawalAmount) == true) {
             balance = updateBalance(balance,withdrawalAmount);
